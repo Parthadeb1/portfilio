@@ -13,33 +13,33 @@ const MenuBar = () => {
     <>
       <nav className="navbar">
         <div className="nav_container">
-          <Link exact to="/home" className="nav_logo">
+          <Link exact to="/" className="nav_logo">
             Partha
           </Link>
 
           <ul className={click? "nav_menu active":"nav_menu"}>
             <li className="nav_item">
-              <Link exact to="/home"  onClick={handleClick} activeClassName="active" className="nav_links">
+              <Link  to="/home"  onClick={handleClick} activeClassName="active" className="nav_links">
                 Home
               </Link>
             </li>
             <li className="nav_item">
-              <Link exact to="/projects" onClick={handleClick} activeClassName="active" className="nav_links">
+              <Link  to="/projects" onClick={handleClick} activeClassName="active" className="nav_links">
                 Projects
               </Link>
             </li>
             <li className="nav_item">
-              <Link exact to="/blogs" onClick={handleClick} activeClassName="active" className="nav_links">
+              <Link  to="/blogs" onClick={handleClick} activeClassName="active" className="nav_links">
                 Blogs
               </Link>
             </li>
             <li className="nav_item">
-              <Link exact to="/about" onClick={handleClick} activeClassName="active" className="nav_links">
+              <Link  to="/about" onClick={handleClick} activeClassName="active" className="nav_links">
                 About
               </Link>
             </li>
             <li className="nav_item">
-              <Link exact to="/contact" onClick={handleClick} activeClassName="active" className="nav_links">
+              <Link  to="/contact" onClick={handleClick} activeClassName="active" className="nav_links">
                 Contact
               </Link>
             </li>
